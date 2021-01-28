@@ -99,7 +99,7 @@ export default {
     },
     checkPic: {
       type: Function,
-      defult: () => {}
+      default: () => () => {}
     },
     config: {
       type: Object,
