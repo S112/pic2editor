@@ -1,6 +1,6 @@
 {
   "name": "pic2editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue实现的图片编辑器",
   "main": "index.js",
   "scripts": {
