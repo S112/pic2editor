@@ -1,0 +1,24 @@
+flex($row=flex-start, $column=stretch, $direction=row, $wrap=nowrap) {
+  display: flex;
+	justify-content: $row;
+	align-items: $column;
+	flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+position($position=fixed, $top=auto, $right=auto, $bottom=auto, $left=auto){
+  position: $position;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+}
+
+multi-line-overflow($line= 2) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	word-break: break-all;
+}
